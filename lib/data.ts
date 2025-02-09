@@ -51,22 +51,22 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
   Generic: {
     title: 'Default',
     description: 'Helps you think',
-    systemMessage: 'You are ChatGPT, a large language model trained by OpenAI, based on the deepseek-r1 architecture.\nKnowledge cutoff: 2021-09\nCurrent date: {{Today}}',
+    systemMessage: 'You are ChatGPT, a large language model trained by OpenAI, based on the deepseek-v3 architecture.\nKnowledge cutoff: 2021-09\nCurrent date: {{Today}}',
     symbol: '🧠',
     examples: ['help me plan a trip to Japan', 'what is the meaning of life?', 'how do I get a job at OpenAI?', 'what are some healthy meal ideas?'],
   },
   Custom: {
     title: 'Custom',
     description: 'User-defined purpose',
-    systemMessage: 'You are ChatGPT, a large language model trained by OpenAI, based on the deepseek-r1 architecture.\nCurrent date: {{Today}}',
+    systemMessage: 'You are ChatGPT, a large language model trained by OpenAI, based on the deepseek-v3 architecture.\nCurrent date: {{Today}}',
     symbol: '✨',
   },
 };
 
 
-export type ChatModelId = 'deepseek-r1' | 'gpt-3.5-turbo';
+export type ChatModelId = 'deepseek-v3' | 'gpt-3.5-turbo';
 
-export const defaultChatModelId: ChatModelId = 'deepseek-r1';
+export const defaultChatModelId: ChatModelId = 'deepseek-v3';
 export const fastChatModelId: ChatModelId = 'gpt-3.5-turbo';
 
 type ChatModelData = {
@@ -77,10 +77,10 @@ type ChatModelData = {
 }
 
 export const ChatModels: { [key in ChatModelId]: ChatModelData } = {
-  'deepseek-r1': {
+  'deepseek-v3': {
     description: 'Most insightful, larger problems, but slow, expensive, and may be unavailable',
-    title: 'deepseek-r1',
-    fullName: 'deepseek-r1',
+    title: 'deepseek-v3',
+    fullName: 'deepseek-v3',
     contextWindowSize: 8192,
   },
   'gpt-3.5-turbo': {

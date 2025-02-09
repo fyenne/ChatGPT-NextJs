@@ -18,7 +18,7 @@ export async function extractOpenaiChatInputs(req: NextRequest): Promise<ApiChat
     model,
     messages,
     temperature = 0.5,
-    max_tokens = 1024,
+    max_tokens = 4096,
   } = (await req.json()) as Partial<ApiChatInput>;
   if (!model || !messages)
     throw new Error('Missing required parameters: api, model, messages');

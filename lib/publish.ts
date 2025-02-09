@@ -107,7 +107,7 @@ export async function publishConversation(gg: 'paste.gg', conversation: DConvers
 
 export function prettyBaseModel(model: string | undefined): string {
   if (!model) return '';
-  if (model.startsWith('deepseek-r1')) return 'deepseek-r1';
+  if (model.startsWith('deepseek-v3')) return 'deepseek-v3';
   if (model.startsWith('gpt-3.5-turbo')) return '3.5 Turbo';
   return model;
 }

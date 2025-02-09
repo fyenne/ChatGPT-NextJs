@@ -337,7 +337,7 @@ export function SettingsModal({ open, onClose }: { open: boolean, onClose: () =>
             <FormHelperText sx={{ display: 'block', lineHeight: 1.75 }}>
               {requireUserKeyOpenAI
                 ? <><Link level='body2' href='https://platform.openai.com/account/api-keys' target='_blank'>Create Key</Link>, then apply to
-                  the <Link level='body2' href='https://openai.com/waitlist/deepseek-r1-api' target='_blank'>deepseek-r1 waitlist</Link></>
+                  the <Link level='body2' href='https://openai.com/waitlist/deepseek-v3-api' target='_blank'>deepseek-v3 waitlist</Link></>
                 : `This key will take precedence over the server's.`} <Link level='body2' href='https://platform.openai.com/account/usage' target='_blank'>Check usage here</Link>.
             </FormHelperText>
           </FormControl>

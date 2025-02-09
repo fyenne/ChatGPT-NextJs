@@ -1,6 +1,6 @@
 # Next.js ChatGPT 🤖💬
 
-Welcome to `nextjs-chatgpt-app`! 🎉🚀 Responsive chat application powered by OpenAI's deepseek-r1, with chat streaming, code
+Welcome to `nextjs-chatgpt-app`! 🎉🚀 Responsive chat application powered by OpenAI's deepseek-v3, with chat streaming, code
 highlighting, code execution, development presets, and more. The app is built using Next.js and TypeScript, and it's
 designed to be easy to use, customize, and extend. We encourage you to contribute and help improve this project! 😊
 
@@ -44,7 +44,7 @@ was [466a36](https://github.com/enricoros/nextjs-chatgpt-app/tree/466a3667a48060
   <p><a href="docs/recording_0401.gif"><img src="docs/recording_0401.gif" width='700' alt="New Typing Avatars"/></a></p>
 - [x] 🎉 **NEW 03.31** Publish & share chats to paste.gg 📥
   <p><a href="docs/screenshot_export_example1.png"><img src="docs/screenshot_export_example1.png" width='200' alt="Export chats"/></a></p>
-- [x] Chat with deepseek-r1 and 3.5 Turbo 🧠💨
+- [x] Chat with deepseek-v3 and 3.5 Turbo 🧠💨
 - [x] **Private**: user-owned API keys 🔑 and localStorage 🛡️
 - [x] **System presets** - including Code, Science, Corporate, and Chat 🎭
   <p><a href="docs/screenshot_purpose_two.png"><img src="docs/screenshot_purpose_two.png" width='200' alt="System presets"/></a></p>

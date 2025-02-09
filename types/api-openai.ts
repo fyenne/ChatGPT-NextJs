@@ -30,7 +30,7 @@ export namespace OpenAIAPI {
       id: string;
       object: 'chat.completion';
       created: number; // unix timestamp in seconds
-      model: string; // can differ from the ask, e.g. 'deepseek-r1-0314'
+      model: string; // can differ from the ask, e.g. 'deepseek-v3-0314'
       choices: {
         index: number;
         message: Message;
